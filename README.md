@@ -36,7 +36,7 @@ git clone https://github.com/theSuriya/Screenshot-HTML
 
 3. **Google API KEY**:Go to this site to generate api key [HERE](https://aistudio.google.com) You can see left side generate api thn click and copy. Once you have the api key, locate the .env file in your project directory. Open it and paste your aoi key like this:
   ```bash
-  HF_TOkEN = "paste the api key here"
+  GOOGLE_API_KEY = "paste the api key here"
   ```
 4. **Install Dependencies**: Make sure you have Python installed on your system. Then, In your terminal or command prompt within the project directory, run:
 ```bash

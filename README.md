@@ -6,11 +6,11 @@ The objective of this project is to create a tool that converts a screenshot of 
 
 ## Key Features:
 
-- Streamlit Web App: The project is built using Streamlit, a Python library for creating web applications. Users interact with the application through a user-friendly interface.
-- Gemini 1.5 Model: The project utilizes the Gemini 1.5 model provided by Google GenerativeAI. This model is capable of understanding the structure and design of a webpage from an image and generating corresponding HTML and CSS code.
-- Upload Image: Users can upload a screenshot of the webpage they want to convert. The application accepts image files in common formats such as JPG, JPEG, and PNG.
-- Generate Code: Once the image is uploaded, users can click a button to initiate the code generation process. The Gemini 1.5 model analyzes the screenshot and generates HTML and CSS code that replicates the design of the webpage.
-- View Generated Code: The generated HTML and CSS code is displayed within the application, allowing users to inspect and copy it for use in their own projects.
+- **Streamlit Web App**: The project is built using Streamlit, a Python library for creating web applications. Users interact with the application through a user-friendly interface.
+- **Gemini 1.5 Model**: The project utilizes the Gemini 1.5 model provided by Google GenerativeAI. This model is capable of understanding the structure and design of a webpage from an image and generating corresponding HTML and CSS code.
+- **Upload Image**: Users can upload a screenshot of the webpage they want to convert. The application accepts image files in common formats such as JPG, JPEG, and PNG.
+- **Generate Code**: Once the image is uploaded, users can click a button to initiate the code generation process. The Gemini 1.5 model analyzes the screenshot and generates HTML and CSS code that replicates the design of the webpage.
+- **View Generated Code**: The generated HTML and CSS code is displayed within the application, allowing users to inspect and copy it for use in their own projects.
   
 ## Usage
 
@@ -34,7 +34,7 @@ git clone https://github.com/theSuriya/Screenshot-HTML
 ```
 2. **Open in Your Favorite IDE**: Open the cloned directory in your preferred Integrated Development Environment (IDE) such as Visual Studio Code, PyCharm, or any other IDE of your choice.
 
-3. *Google API KEY**:Go to this site to generate api key [HERE](https://aistudio.google.com) You can see left side generate api thn click and copy.Once you have the api key, locate the .env file in your project directory. Open it and paste your aoi key like this:
+3. **Google API KEY**:Go to this site to generate api key [HERE](https://aistudio.google.com) You can see left side generate api thn click and copy. Once you have the api key, locate the .env file in your project directory. Open it and paste your aoi key like this:
   ```bash
   HF_TOkEN = "paste the api key here"
   ```

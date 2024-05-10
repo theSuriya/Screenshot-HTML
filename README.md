@@ -47,11 +47,7 @@ pip install -r requirements.txt
  streamlit run app.py
  ```
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-Acknowledgments
+## Acknowledgments
 - Streamlit - For creating interactive web apps with Python.
 - Google GenerativeAI - For providing access to the Gemini 1.5 model.
   

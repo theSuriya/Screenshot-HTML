@@ -11,6 +11,10 @@ The objective of this project is to create a tool that converts a screenshot of 
 - **Upload Image**: Users can upload a screenshot of the webpage they want to convert. The application accepts image files in common formats such as JPG, JPEG, and PNG.
 - **Generate Code**: Once the image is uploaded, users can click a button to initiate the code generation process. The Gemini 1.5 model analyzes the screenshot and generates HTML and CSS code that replicates the design of the webpage.
 - **View Generated Code**: The generated HTML and CSS code is displayed within the application, allowing users to inspect and copy it for use in their own projects.
+
+## Application Demo
+
+here is the demo of an App in huggingface click [here](https://huggingface.co/spaces/suriya7/Screenshot-HTML)
   
 ## Usage
 
